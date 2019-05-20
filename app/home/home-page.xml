@@ -29,8 +29,8 @@
             <StackLayout class="hr"></StackLayout>
             <Label class="page-icon fa" text="&#xf015;"></Label>
             <Label class="page-placeholder" text=""></Label>
-            <TextView class="page-placeholder" style="margin:10px;" text="
-Welcome to the field tranining app.
+            <TextView class="page-placeholder" style="margin:10px;" isEnabled="false" text="
+Welcome to the field training app.
 
 Use the training app to record your tasks and learn using the Kinvey SDK.
 

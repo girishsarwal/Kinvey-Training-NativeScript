@@ -23,33 +23,6 @@ https://docs.nativescript.org/ui/professional-ui-components/SideDrawer/getting-s
                         <Label row="0" col="0" text="&#xf015;" class="fas" />
                         <Label row="0" col="1" text="Home" class="p-r-10" />
                     </GridLayout>
-
-                    <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Accounts' ? ' selected': '') }}"
-                        route="accounts/accounts-page" title="Accounts" tap="onNavigationItemTap">
-                        <Label row="0" col="0" text="&#xf0c0;" class="fas" />
-                        <Label row="0" col="1" text="Accounts" class="p-r-10" />
-                    </GridLayout>
-
-                    <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Tasks' ? ' selected': '') }}"
-                        route="tasks/tasks-page" title="Tasks" tap="onNavigationItemTap">
-                        <Label row="0" col="0" text="&#xf0ae;" class="fas" />
-                        <Label row="0" col="1" text="Tasks" class="p-r-10" />
-                    </GridLayout>
-
-                    <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'TaskAdd' ? ' selected': '') }}"
-                        route="task-add/task-add-page" title="Add Task" tap="onNavigationItemTap">
-                        <Label row="0" col="0" text="&#xf0ae;" class="fas" />
-                        <Label row="0" col="1" text="Add Task" class="p-r-10" />
-                    </GridLayout>
-                    
-        
-                    <StackLayout class="hr-light"></StackLayout>
-
-                   <GridLayout columns="auto, *" class="{{ 'sidedrawer-list-item' + (selectedPage === 'Login' ? ' selected': '') }}"
-                        route="login/login-page" title="Login" tap="onNavigationItemTap">
-                        <Label row="0" col="0" text="{{ (activeUser === '' ? '&#xf2f6;': '&#xf2f5;') }}" class="fas" />
-                        <Label row="0" col="1" text="{{ (activeUser === '' ? 'Login': 'Logoff') }}" class="p-r-10" />
-                    </GridLayout>
                 </StackLayout>
             </ScrollView>
         </GridLayout>
